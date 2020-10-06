@@ -1,0 +1,34 @@
+{
+    "name": "p-testmailbox/test-repo",
+    "license": "MIT",
+    "description": "PHP Library for building HTTP JSON API",
+    "authors": [
+        {
+            "name": "Dmitriy V Kozubskiy",
+            "email": "kozubsky@inbox.ru",
+            "homepage": "http://codexsoft.ru/",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/p-testmailbox/test-repo/issues",
+        "source": "https://github.com/p-testmailbox/test-repo"
+    },
+    "require": {
+        "php": "^7.4.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "PTestMailbox\\TestRepo\\": ["src/"]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PTestMailbox\\TestRepo\\": ["tests/unit/"],
+            "": ["vendor/"]
+        }
+    }
+}
